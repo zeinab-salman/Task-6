@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-web/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg border-bottom d-flex justify-content-between bg-gray1 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./assets/images/images/logo.png" alt="logo" /></a>
+                <button class="navbar-toggler border-0 d-lg-none d-flex" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <p id="menu" class="text-secondary fs-3 ms-2 ">MENU</p>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
+                    <ul class="navbar-nav  ">
+                        <li class="nav-item">
+                            <a class="nav-link nav-active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FEATURES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">POPULAR</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="hero bg-gray1 vh-100 ">
+            <div id="carouselExample" class="carousel slide h-100 w-100">
+                <div class="carousel-inner  ">
+                    <div class="carousel-item active w-100 h-100 ">
+                        <div
+                            class="row row-cols-2 d-lg-flex hero-info align-items-center justify-content-center  container gap-5 vh-100 ">
+                            <div
+                                class=" pe-2 me-lg-5  col-lg-4 col-12  order-2 order-lg-1    my-auto  d-flex flex-column d-lg-block align-items-center ms-5 ms-lg-0 h-50 ">
+                                <h1 class=" fw-bold text-center">Life Of The Wild</h1>
+                                <p class="text-w-370 mt-4 text-secondary ">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.Animi culpe minus quidem aspernatur? Dicta fugiat nemo repellat
+                                    tempora quaerat incidunt sunt,
+                                    .</p>
+                                <button class="p-1 px-3 bg-gray1 mb-5 ">READ MORE<i
+                                        class="fas fa-arrow-right ms-2"></i></button>
+                            </div>
+                            <div
+                                class="col-lg-3  col-12 align-items-center justify-content-center ps-5 order-1 order-lg-2 d-flex align-items-center mt-5 h-50 pb-1 pb-lg-5 ">
+                                <img src="./assets/images/images/main-banner1.jpg" class="d-block pt-5 mt-2 " alt="..."
+                                    width="300px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100 w-100">
+                        <div
+                            class="row row-cols-2 d-lg-flex hero-info align-items-center justify-content-center  container gap-5 vh-100">
+                            <div
+                                class=" pe-5 me-lg-5  col-lg-4 col-12  order-2 order-lg-1    my-auto  d-flex flex-column d-lg-block align-items-center ms-5 ms-lg-0 h-50   ">
+                                <h1 class=" fw-bold text-center">Brids Gonna Be Happy</h1>
+                                <p class="text-w-370 mt-4 text-secondary">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.nimi nemo repellat tempora quaerat incidunt sunt,
+                                    .</p>
+                                <button class="p-1  px-3 bg-gray1 btn-more mb-5">READ MORE<i
+                                        class="fas fa-arrow-right icon"></i></button>
+                            </div>
+                            <div
+                                class="col-lg-3  col-12 align-items-center justify-content-center ps-5 order-1 order-lg-2 d-flex align-items-center mt-5 pb-1 pb-lg-5 h-50 ">
+                                <img src="./assets/images/images/main-banner2.jpg" class="d-block pt-5 mt-2 " alt="..."
+                                    width="300px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                    <span class="rounded-circle border p-2 ps-3 pe-3"><i class="fas fa-arrow-left "></i></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="rounded-circle border p-2 ps-3 pe-3"><i class="fas fa-arrow-right"></i></span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="client py-5 text-decoration-none align-items-center justify-content-center">
+            <ul class="d-lg-flex  container  align-items-center justify-content-center  mx-auto">
+                <li class="list-group-item col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                    <a href="#" class="text-decoration-none d-flex justify-content-center align-items-center"> <img
+                            src="./assets/images/images/client-image1.png" alt="book" /></a>
+                </li>
+                <li
+                    class=" list-style-none list-group-item col-lg-2 col-12 align-items-center d-flex justify-content-center align-items-center">
+                    <a href="#" class="text-decoration-none d-flex justify-content-center align-items-center"> <img
+                            src="./assets/images/images/client-image2.png" alt="book" /></a>
+                </li>
+                <li class="list-group-item  col-lg-2  col-12  d-flex justify-content-center align-items-center">
+                    <a href="#" class="text-decoration-none d-flex justify-content-center align-items-center"><img
+                            src="./assets/images/images/client-image3.png" alt="book" /></a>
+                </li>
+                <li class=" list-group-item col-lg-2  col-12 d-flex justify-content-center align-items-center">
+                    <a href="#" class="text-decoration-none d-flex justify-content-center align-items-center"><img
+                            src="./assets/images/images/client-image4.png" alt="book" /></a>
+                </li>
+                <li class="list-group-item col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                    <a href="#" class="text-decoration-none d-flex justify-content-center align-items-center"><img
+                            src="./assets/images/images/client-image5.png" alt="book" /></a>
+                </li>
+            </ul>
+        </section>
+        <section class="featured-books py-5 bg-gray1  d-flex flex-column align-items-center justify-content-center">
+            <p class="text-center text-secondary">SOME QUAlITY ITEMS</p>
+            <h2 class="text-center feature-title  d-flex align-items-center justify-content-center mx-auto ">Featured
+                Books</h2>
+            <div
+                class="container  featured-container border-bottom d-flex align-items-center justify-content-center p-4 row row-cols-4">
+            </div>
+            <div class="w-100 d-flex align-items-center justify-content-end"><a href="#"
+                    class="text-decoration-none text-dark d-flex justify-content-end mt-2 me-5 pe-2">View All
+                    Products <i class="fas fa-arrow-right mt-1 ms-2"></i></a></div>
+        </section>
+        <section class="best-selling bg-gray2 py-5 d-flex align-items-center justify-content-center  ">
+            <div
+                class="container row row-cols-2 d-flex align-items-center justify-content-center w-50 best-container py-5">
+            </div>
+        </section>
+        <section class="popular-books py-5 bg-gray1 d-flex flex-column align-items-center justify-content-center">
+            <p class="text-center text-secondary ">SOME QUALITY ITEMS</p>
+            <h2 class="text-center feature-title  d-flex align-items-center justify-content-center mx-auto ">Popular
+                Books</h2>
+            <div class="  d-flex justify-content-center pt-5 flex-wrap gap-1 ">
+                <div><button class="  border-0 bg-gray1 text-secondary me-5 link popular-active">All Genre</button>
+                    <button class=" border-0 bg-gray1 text-secondary me-5 link">Business</button>
+                    <button class="   border-0 bg-gray1 text-secondary me-5 link">Technology</button>
+                </div>
+                <div> <button class="   border-0 bg-gray1 text-secondary me-5 link">Romantic</button>
+                    <button class="  border-0 bg-gray1 text-secondary me-5 link">Adventure</button>
+                    <button class=" border-0 bg-gray1 text-secondary link me-5">Fictional</button>
+                </div>
+            </div>
+            <div
+                class="container popular-container  d-flex align-items-center justify-content-center p-4 row row-cols-4 mx-auto ">
+            </div>
+        </section>
+        <section class=" subscribe py-5 bg-gray2 ">
+            <div class="container row row-cols-2 d-flex  align-items-center justify-content-center mx-auto py-5  ps-5 ">
+                <div class="col-10 col-lg-4  mb-5 mb-lg-0 ">
+                    <h2 class="w-75 fw-bold">Subscribe To Our Newsletter</h2>
+                    <div class="brown-line bg-dark-green"></div>
+                </div>
+                <div class=" col-10 col-lg-5  ">
+                    <p class=" text-secondary w-75"> ullam obcaecati aut quibusdam, pariatur dignissimos, velit a
+                        fugit nulla quodipsa? Nostrum soluta voluptatum fugit!</p>
+                    <div class="form d-flex email-input pb-2 "> <input type="email"
+                            class="d-block input bg-gray2 border-0  " placeholder="Enter your email address here"
+                            style="width: 66%;" />
+                        <button class="border-0 ms-4 fs-5 fw-bold bg-gray2 " type="submit">Send
+                            <i class="fas fa-paper-plane fs-6 "></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pt-5 pb-5 bg-gray1">
+        <div class="container">
+            <div class="row  ">
+                <div class="row border-bottom ">
+                    <div class="card col-12 col-lg-3 mx-auto bg-gray1 border-0 pe-5 me-5 ">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <img src="./assets/images/images/logo.png" class="mt-5 pt-1 w-75 w-lg-100 " />
+                            <p class="text-center pt-5 mt-4 text-secondary">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Minima, iure est deserunt earum nulla inventore consequatur debitis ea
+                                sed soluta quo cumque odio molestias .</p>
+                        </div>
+                    </div>
+                    <ul class=" col-12 col-lg-2 mx-auto  list-group col-2 border-0 bg-gray1">
+                        <li class="list-group-item border-0 text-center bg-gray1">
+                            <h5 class="my-5 pt-3 ">About Us</h5>
+                        </li>
+                        <li class="list-group-item border-0 text-center bg-gray1"><a href="#"
+                                class="text-decoration-none text-dark">vision</a>
+                        </li>
+                        <li class="list-group-item border-0 text-center bg-gray1"><a href="#"
+                                class="text-decoration-none text-dark">articles</a>
+                        </li>
+                        <li class="list-group-item border-0 text-center bg-gray1"><a href="#"
+                                class="text-decoration-none text-dark">careers</a>
+                        </li>
+                        <li class="list-group-item border-0 text-center bg-gray1"><a href="#"
+                                class="text-decoration-none text-dark">service terms</a></li>
+                        <li class="list-group-item border-0 text-center bg-gray1"><a href="#"
+                                class="text-decoration-none text-dark">donate</a>
+                        </li>
+                    </ul>
+                    <ul class="col-12 col-lg-2 mx-auto  list-group col-2 bg-baby-green border-0">
+                        <li class="list-group-item border-0 text-center bg-gray1">
+                            <h5 class="my-5 pt-3">Discover</h5>
+                        </li>
+                        <li class="list-group-item border-0 text-center bg-gray1">Home</li>
+                        <li class="list-group-item border-0 text-center bg-gray1">Books</li>
+                        <li class="list-group-item w-100 border-0 text-center bg-gray1">Authors</li>
+                        <li class="list-group-item border-0 text-center bg-gray1">Subjects
+                        </li>
+                        <li class="list-group-item border-0 text-center bg-gray1">Advanced Search</li>
+                    </ul>
+                    <ul class="col-12 col-lg-2 mx-auto list-group col-2 border-0">
+                        <li class="list-group-item border-0  text-center bg-gray1">
+                            <h5 class="my-5 pt-3">My Account</h5>
+                        </li>
+                        <li class="list-group-item border-0 text-center bg-gray1">Sign In</li>
+                        <li class="list-group-item border-0 text-center bg-gray1">View Cart</li>
+                        <li class="list-group-item border-0 text-center bg-gray1">My Wishtlist
+                        </li>
+                        <li class="list-group-item border-0 text-center bg-gray1">Track My Order</li>
+                    </ul>
+                    <ul class="col-12 col-lg-2 mx-auto list-group col-2 border-0 ">
+                        <li class="list-group-item border-0 text-center bg-gray1">
+                            <h5 class="my-5 pt-3">Help</h5>
+                        </li>
+                        <li class="list-group-item border-0 text-center bg-gray1">Help center</li>
+                        <li class="list-group-item border-0 text-center bg-gray1">Report a proplem</li>
+                        <li class="list-group-item border-0 text-center bg-gray1">Suggesting edits</li>
+                        <li class="list-group-item border-0 text-center bg-gray1">Contact us</li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-between  flex-wrap  ">
+                    <p class="   pt-5 text-secondary text-center">&copy;2022 All rights reserved.Free HTML Template by
+                        Designed by <a class="text-decoration-none text-brown  " href="#"> Templetesjungle</a></p>
+                    <div class="follow d-flex align-items-center  mt-5 justify-content-end   ">
+                        <a href=" https://www.facebook.com/zeinab.slman.1 " class="me-3"> <i
+                                class=" fab fa-facebook  text-dark"> </i>
+                        </a>
+                        <a href="#" class="me-3">
+                            <i class="fab fa-twitter text-dark"> </i> </a>
+                        <a href=" https://www.linkedin.com/in/zeinab-salman-493118240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                            class="me-3">
+                            <i class="fab fa-youtube text-dark"> </i>
+                        </a>
+                        <a href="#  ">
+                            <i class="fab fa-behance text-dark"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

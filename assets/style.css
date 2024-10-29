@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Crimson Text", serif;
+}
+
+.text-w-350 {
+    width: 350px;
+}
+
+.bg-gray1 {
+    background-color: #f3f2ec;
+}
+
+.bg-gray2 {
+    background-color: #edebe4;
+}
+
+.bg-brown {
+    background-color: #a96538;
+}
+
+.bg-dark-green {
+    background-color: #6a6422;
+}
+
+.text-dark-green {
+    color: #6a6422;
+}
+
+.text-brown {
+
+    color: #a96538;
+}
+
+.hero .hero-info button {
+    color: #a96538;
+    border: 1px solid #a96538;
+}
+
+.client {
+    background-color: #edebe4;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    color: gray !important;
+}
+
+.brown-line {
+    width: 35px;
+    height: 2.5px;
+}
+
+.subscribe .email-input {
+    border-bottom: 2px solid gray !important;
+    width: 70% !important;
+}
+
+.btn-add-to-cart {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-active {
+    color: #a96538 !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none !important;
+}
+
+.subscribe {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.client {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.feature-title::before,
+.feature-title::after {
+    content: '  ';
+    width: 340px;
+    height: 0.5px;
+
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: rgb(182, 179, 179);
+}
+
+.popular-active {
+    border-bottom: 3px solid #6a6422 !important;
+    color: black !important;
+}
+
+.hero .hero-info button:hover {
+    background-color: #a96538;
+    color: white;
+}
+
+.card:hover {
+    transform: translate(0px, -20px);
+    transition: 0.7s;
+}
+
+.subscribe input:hover {
+    border: 2px solid black !important;
+}
+
+.subscribe button:hover {
+    color: #a96538;
+    font-size: 21px !important;
+}
+
+.client img:hover {
+    transform: translate(0px, -22px);
+    transition: 0.7s;
+}
+
+footer i:hover {
+    color: #a96538 !important;
+    font-size: 15px;
+    border: 2px solid #a96538;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+@media(max-width:920px) {
+
+    .feature-title::before,
+    .feature-title::after {
+        content: "  ";
+        width: 0px;
+    }
+
+    .featured-books h2,
+    .popular-books h2 {
+        border-bottom: 0.2px solid gray;
+        padding: 5px;
+    }
+
+    * {
+        font-size: small;
+    }
+
+    .hero p {
+        width: 60%;
+        text-align: center;
+    }
+
+    header .navbar img {
+        width: 60%;
+    }
+}
+
+@media(max-width:700px) {
+    .hero img {
+        width: 180px;
+    }
+
+    .follow {
+        width: 100% !important;
+    }
+
+    .client img {
+        width: 40%;
+    }
+}
